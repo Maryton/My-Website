@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayieta Mary Auma</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(180deg, #e8eaff 0%, #ffe7f5 100%);
+            color: #222;
+        }
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 15px;
+            background: #ffffffaa;
+            position: sticky;
+            top: 0;
+            backdrop-filter: blur(6px);
+            z-index: 10;
+        }
+        nav a {
+            text-decoration: none;
+            font-weight: 600;
+            color: #1a237e;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        header {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #fff;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin-top: 20px;
+            font-size: 2.4rem;
+            font-weight: 700;
+            color: #1a237e;
+        }
+        header p {
+            margin: 8px auto 0;
+            max-width: 700px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            font-size: 2rem;
+            color: #ad1457;
+            margin-bottom: 20px;
+        }
+        .experience-item, .service-card, .skill-card {
+            background: #ffffffcc;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .experience-item { margin-bottom: 20px; }
+        .experience-item h3 { color: #1a237e; margin-bottom: 10px; }
+        .services-grid, .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+        .certificates-wrapper {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+        }
+        .certificate {
+            background: #ffffffcc;
+            padding: 20px;
+            width: 260px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            flex-shrink: 0;
+        }
+        footer {
+            padding: 50px 20px;
+            text-align: center;
+            background: #1a237e;
+            color: white;
+        }
+        footer a { color: #ffb3da; text-decoration: none; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#home">🏠 Home</a>
+    <a href="#about">👩‍💼 About</a>
+    <a href="#skills">🧩 Skills</a>
+    <a href="#experience">📘 Experience</a>
+    <a href="#services">💼 Services</a>
+    <a href="#certifications">📜 Certifications</a>
+    <a href="#contact">📨 Contact</a>
+</nav>
+
+<header id="home">
+    <img src="65c8ff72-ae55-4512-bad8-ec7dd727602d.png" alt="Profile" />
+    <h1>Ayieta Mary Auma</h1>
+    <p>Crafting clear, expressive, and impactful content through thoughtful writing, strategic communication, and strong language expertise.</p>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a writer and language specialist with a strong eye for detail, clarity, and meaningful communication. With experience in teaching, research, copywriting, and digital content creation, I bring structure, warmth, and depth to every project. I enjoy transforming ideas into polished work—whether it's an insightful article, compelling ad message, or well‑crafted learning material.</p>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+
+    <div class="experience-item">
+        <h3>Freelance Writer & Copywriter</h3>
+        <p>I develop bold, expressive, and scroll‑stopping written content for brands and individuals. My work spans ad copy, scripts, blog posts, and educational materials. I’m known for my ability to simplify ideas, enhance message clarity, and write in a voice that feels natural, engaging, and confident. My projects cover tech, education, lifestyle, and marketing domains.</p>
+    </div>
+
+    <div class="experience-item">
+        <h3>English Language Instructor</h3>
+        <p>Guided learners across different proficiency levels by designing lessons that break down complex grammar and writing concepts into simple, relatable explanations. Helped students build confidence, improve clarity, and communicate effectively in academic, professional, and everyday settings.</p>
+    </div>
+
+    <div class="experience-item">
+        <h3>Research & Academic Writer</h3>
+        <p>Produced well‑structured research papers, analytical reports, and academic content rooted in accuracy and depth. Skilled in synthesizing information, evaluating sources, and presenting insights in a compelling, organized, and articulate manner.</p>
+    </div>
+</section>
+
+<section id="services">
+    <h2>Services</h2>
+    <div class="services-grid">
+
+        <div class="service-card">
+            <h3>English Language Training</h3>
+            <p>I support learners in strengthening grammar, writing, and communication skills through clear explanations and structured learning approaches.</p>
+            <ul>
+                <li>Grammar coaching</li>
+                <li>Writing improvement</li>
+                <li>Speaking & clarity training</li>
+            </ul>
+        </div>
+
+        <div class="service-card">
+            <h3>Copywriting & Content Writing</h3>
+            <p>I craft expressive, captivating, and strategic copy that helps brands communicate confidently and leave a lasting impression.</p>
+            <ul>
+                <li>Website copy</li>
+                <li>Ad copy</li>
+                <li>Scripts & branded content</li>
+            </ul>
+        </div>
+
+        <div class="service-card">
+            <h3>Research & Analytical Writing</h3>
+            <p>I create structured, insight‑driven content that translates complex information into clear, compelling writing.</p>
+            <ul>
+                <li>Reports & research papers</li>
+                <li>Topic summaries</li>
+                <li>Evidence‑based writing</li>
+            </ul>
+        </div>
+
+        <div class="service-card">
+            <h3>Digital Marketing Support</h3>
+            <p>I produce platform‑ready messaging for LinkedIn, Google, and Meta ads—focused on clarity, emotional appeal, and business relevance.</p>
+            <ul>
+                <li>LinkedIn ads</li>
+                <li>Google ads</li>
+                <li>Facebook ads</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <h3>Content Writing</h3>
+            <p>Crafting clear, expressive, and engaging content tailored to different audiences and goals.</p>
+        </div>
+        <div class="skill-card">
+            <h3>Copywriting</h3>
+            <p>Writing scroll‑stopping, persuasive messaging for brands, ads, and digital campaigns.</p>
+        </div>
+        <div class="skill-card">
+            <h3>Research & Analysis</h3>
+            <p>Turning complex information into structured, insight‑driven writing that is easy to understand.</p>
+        </div>
+        <div class="skill-card">
+            <h3>SEO Basics</h3>
+            <p>Optimizing content for clarity, structure, and improved visibility across search platforms.</p>
+        </div>
+        <div class="skill-card">
+            <h3>Grammar & Style Control</h3>
+            <p>Ensuring writing is polished, error‑free, and aligned with the intended tone and style.</p>
+        </div>
+        <div class="skill-card">
+            <h3>Creative Writing</h3>
+            <p>Bringing ideas to life with imaginative, compelling, and emotionally resonant storytelling.</p>
+        </div>
+        <div class="skill-card">
+            <h3>Communication</h3>
+            <p>Delivering ideas with clarity and confidence, both in writing and in structured presentations.</p>
+        </div>
+        <div class="skill-card">
+            <h3>Attention to Detail</h3>
+            <p>Maintaining quality by identifying inconsistencies, improving flow, and refining language.</p>
+        </div>
+        <div class="skill-card">
+            <h3>Ads Writing</h3>
+            <p>Creating concise, impactful messaging tailored for LinkedIn, Google, and Meta platforms.</p>
+        </div>
+    </div>
+</section>
+
+<section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certificates-wrapper">
+        <div class="certificate">Certificate 1</div>
+        <div class="certificate">Certificate 2</div>
+        <div class="certificate">Certificate 3</div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>You can reach me anytime at:</p>
+    <p><strong>Email:</strong> <a href="mailto:maritesamary@gmail.com">maritesamary@gmail.com</a></p>
+</section>
+
+<footer>
+    <p>© 2025 Ayieta Mary Auma</p>
+</footer>
+
+</body>
+</html>
